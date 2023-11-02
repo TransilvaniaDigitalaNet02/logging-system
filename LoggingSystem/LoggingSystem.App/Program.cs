@@ -7,7 +7,7 @@ namespace LoggingSystem.App
         static void Main(string[] args)
         {
             // app startup
-            ApplicationLog.Initialize(new FileLogger(@"D:\FastTrackIT\TransDigitala\logging-system"));
+            ApplicationLog.Initialize(new FileLogger());
 
             // app codebase
             int n = ConsoleHelper.ReadNumber("No. of elements=", 3, 0);
